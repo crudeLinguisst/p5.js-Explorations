@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #26b7a0;
+}
+
+h3{
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3em;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+  width: 70%;
+  /* background: #ccc; */
+  margin: 0 auto;
+  position: relative;
+  grid-row-gap: 10px;
+}
+
+.title {
+  align-self: end;
+}
+
+.desc {
+  margin-left: 20px;
+}
+
+.projectlist {
+  display: grid;
+  justify-items: end;
+}
+
+ul {
+  display: grid;
+  justify-items: end;
+}
+
+li {
+  list-style: none;
+  padding: .5em 0;
+}
+
+a {
+  font-size: 1.3em;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f9c;
+}
