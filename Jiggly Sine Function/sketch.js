@@ -1,6 +1,5 @@
 let a = 0;
 let theta = 0;
-let title;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -9,8 +8,8 @@ function setup() {
 	noFill();
 	angleMode(DEGREES);
 
-	title = createP("JIGGLY SINE FUNCTION");
-	date = createP("30/11/2017")
+	let title = createP("JIGGLY SINE FUNCTION");
+	let date = createP("30/11/2017")
 	title.position(0, 0);
 	date.position(width-105, 0)
 }
